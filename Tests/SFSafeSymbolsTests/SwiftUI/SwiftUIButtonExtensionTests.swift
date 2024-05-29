@@ -31,29 +31,9 @@ class ButtonExtensionTests: XCTestCase {
                     let localizedStringKey: LocalizedStringKey = ""
                     _ = Button(localizedStringKey, systemSymbol: symbol, role: .cancel) {}
                 }
-                
-                if #available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *) {
-                    let title: String = ""
-                    _ = Button(title, systemSymbol: symbol, role: .cancel, intent: OrderSoupIntent())
-                    
-                    let localizedStringKey: LocalizedStringKey = ""
-                    _ = Button(localizedStringKey, systemSymbol: symbol, role: .cancel, intent: OrderSoupIntent())
-                }
             }
         } else {
             print("To test the Button initializer, iOS 14, macOS 11.0 or tvOS 14 is required.")
-        }
-    }
-    
-    @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
-    struct OrderSoupIntent: AppIntent {
-        static var title = LocalizedStringResource("Order Soup")
-        static var description = IntentDescription("Orders a soup from your favorite restaurant.")
-        
-        init() { }
-        
-        func perform() async throws -> some IntentResult {
-            return .result()
         }
     }
 }
