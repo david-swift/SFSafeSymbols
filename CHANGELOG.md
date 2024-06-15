@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- None
+- Add support for SF Symbols 5.3 (By [Steven Sorial](https://github.com/StevenSorial))
 
 ### Changed
 

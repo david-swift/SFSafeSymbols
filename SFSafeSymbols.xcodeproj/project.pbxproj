@@ -39,6 +39,8 @@
 		B0AEA82C2801A8E000A02015 /* SFSymbol+3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AEA8292801A8E000A02015 /* SFSymbol+3.3.swift */; };
 		B0AEA82D2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AEA82A2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift */; };
 		B0AEA82F2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AEA82E2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift */; };
+		B0B852002C1DC9B000E87F17 /* SFSymbol+AllSymbols+5.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B851FE2C1DC9B000E87F17 /* SFSymbol+AllSymbols+5.3.swift */; };
+		B0B852012C1DC9B000E87F17 /* SFSymbol+5.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B851FF2C1DC9B000E87F17 /* SFSymbol+5.3.swift */; };
 		B0DDAE152637C11400081F1C /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DDAE112637BF3300081F1C /* CodableTests.swift */; };
 		CC1D812F27F758D200CACDC7 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D812E27F758D200CACDC7 /* TestHelper.swift */; };
 		CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */; };
@@ -100,6 +102,8 @@
 		B0AEA8292801A8E000A02015 /* SFSymbol+3.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+3.3.swift"; sourceTree = "<group>"; };
 		B0AEA82A2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+3.3.swift"; sourceTree = "<group>"; };
 		B0AEA82E2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+1.1.swift"; sourceTree = "<group>"; };
+		B0B851FE2C1DC9B000E87F17 /* SFSymbol+AllSymbols+5.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+5.3.swift"; sourceTree = "<group>"; };
+		B0B851FF2C1DC9B000E87F17 /* SFSymbol+5.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+5.3.swift"; sourceTree = "<group>"; };
 		B0DDAE112637BF3300081F1C /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
 		CC1D812E27F758D200CACDC7 /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
 		CCA29C3B285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+4.0.swift"; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 				B01C18652B55D9B300AC4288 /* SFSymbol+5.0.swift */,
 				B01C18692B55D9B300AC4288 /* SFSymbol+5.1.swift */,
 				B01C18662B55D9B300AC4288 /* SFSymbol+5.2.swift */,
+				B0B851FF2C1DC9B000E87F17 /* SFSymbol+5.3.swift */,
 				636A46B528002818007E6028 /* SFSymbol+AllSymbols.swift */,
 				636A46AB28002816007E6028 /* SFSymbol+AllSymbols+1.0.swift */,
 				B0AEA82E2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift */,
@@ -228,6 +233,7 @@
 				B01C186C2B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift */,
 				B01C18672B55D9B300AC4288 /* SFSymbol+AllSymbols+5.1.swift */,
 				B01C18682B55D9B300AC4288 /* SFSymbol+AllSymbols+5.2.swift */,
+				B0B851FE2C1DC9B000E87F17 /* SFSymbol+AllSymbols+5.3.swift */,
 				636A46AF28002817007E6028 /* SymbolLocalizations.swift */,
 			);
 			path = Symbols;
@@ -428,6 +434,7 @@
 				B0AEA82F2801A8FE00A02015 /* SFSymbol+AllSymbols+1.1.swift in Sources */,
 				B01CF32629258987000FBB12 /* SFSymbol+4.1.swift in Sources */,
 				B01CF32729258987000FBB12 /* SFSymbol+AllSymbols+4.1.swift in Sources */,
+				B0B852002C1DC9B000E87F17 /* SFSymbol+AllSymbols+5.3.swift in Sources */,
 				636A46BB28002819007E6028 /* SFSymbol+AllSymbols+1.0.swift in Sources */,
 				636A46CA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift in Sources */,
 				B0AEA82C2801A8E000A02015 /* SFSymbol+3.3.swift in Sources */,
@@ -441,6 +448,7 @@
 				636A46BE28002819007E6028 /* SFSymbol+AllSymbols+3.2.swift in Sources */,
 				B01C186D2B55D9B300AC4288 /* SFSymbol+5.0.swift in Sources */,
 				CCA29C3D285B4E9400133245 /* SFSymbol+AllSymbols+4.0.swift in Sources */,
+				B0B852012C1DC9B000E87F17 /* SFSymbol+5.3.swift in Sources */,
 				B01C18702B55D9B300AC4288 /* SFSymbol+AllSymbols+5.2.swift in Sources */,
 				636A46BF28002819007E6028 /* SymbolLocalizations.swift in Sources */,
 				636A46C528002819007E6028 /* SFSymbol+AllSymbols.swift in Sources */,
