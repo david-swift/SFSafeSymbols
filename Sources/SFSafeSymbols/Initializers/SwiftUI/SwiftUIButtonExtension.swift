@@ -12,6 +12,7 @@ public extension Button where Label == SwiftUI.Label<Text, Image>{
     ///     - title: A string that describes the purpose of the button’s action.
     ///     - systemSymbol: The `SFSymbol` describing this image.
     ///     - action: The action to perform when the user triggers the button.
+    @_disfavoredOverload
     init<S>(
         _ title: S,
         systemSymbol: SFSymbol,
@@ -49,6 +50,7 @@ public extension Button where Label == SwiftUI.Label<Text, Image>{
     ///     - systemSymbol: The `SFSymbol` describing this image.
     ///     - role: An optional semantic role describing the button. A value of nil means that the button doesn’t have an assigned role.
     ///     - action: The action to perform when the user triggers the button.
+    @_disfavoredOverload
     @available(iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0, visionOS 1.0, *)
     init<S>(
         _ title: S,
@@ -115,6 +117,7 @@ public extension Button where Label == SwiftUI.Label<Text, Image>{
     ///     - systemSymbol: The `SFSymbol` describing this image.
     ///     - role: An optional semantic role describing the button. A value of nil means that the button doesn’t have an assigned role.
     ///     - intent: The AppIntent to execute.
+    @_disfavoredOverload
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
     init(
         _ title: some StringProtocol,
