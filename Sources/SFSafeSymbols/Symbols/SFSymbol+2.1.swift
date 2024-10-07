@@ -138,6 +138,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    @available(iOS, introduced: 14.2, deprecated: 18.0, renamed: "clockArrowTrianglehead2CounterclockwiseRotate90")
+    @available(macOS, introduced: 11.0, deprecated: 15.0, renamed: "clockArrowTrianglehead2CounterclockwiseRotate90")
+    @available(tvOS, introduced: 14.2, deprecated: 18.0, renamed: "clockArrowTrianglehead2CounterclockwiseRotate90")
+    @available(watchOS, introduced: 7.1, deprecated: 11.0, renamed: "clockArrowTrianglehead2CounterclockwiseRotate90")
+    @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "clockArrowTrianglehead2CounterclockwiseRotate90")
     static let clockArrow2Circlepath = SFSymbol(rawValue: "clock.arrow.2.circlepath")
 
     /// 􀯝
@@ -288,6 +293,11 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPod touch.
+    @available(iOS, introduced: 14.2, deprecated: 18.0, renamed: "ipodTouchLandscape")
+    @available(macOS, introduced: 11.0, deprecated: 15.0, renamed: "ipodTouchLandscape")
+    @available(tvOS, introduced: 14.2, deprecated: 18.0, renamed: "ipodTouchLandscape")
+    @available(watchOS, introduced: 7.1, deprecated: 11.0, renamed: "ipodTouchLandscape")
+    @available(visionOS, introduced: 1.0, deprecated: 2.0, renamed: "ipodTouchLandscape")
     static let ipodtouchLandscape = SFSymbol(rawValue: "ipodtouch.landscape")
 
     /// 􀵅
