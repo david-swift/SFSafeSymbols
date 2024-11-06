@@ -2405,13 +2405,6 @@ public extension SFSymbol {
     /// - Hierarchical
     static let centsignRingDashed = SFSymbol(rawValue: "centsign.ring.dashed")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterBn = SFSymbol(rawValue: "character.bn")
-
     /// 􂏽
     /// 8 Localizations, 2 Layersets
     ///
@@ -2448,69 +2441,6 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     static let characterCircleFill = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.circle.fill")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterGu = SFSymbol(rawValue: "character.gu")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterKn = SFSymbol(rawValue: "character.kn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterMl = SFSymbol(rawValue: "character.ml")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterMni = SFSymbol(rawValue: "character.mni")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterMr = SFSymbol(rawValue: "character.mr")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterOr = SFSymbol(rawValue: "character.or")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterPa = SFSymbol(rawValue: "character.pa")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterSat = SFSymbol(rawValue: "character.sat")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterSi = SFSymbol(rawValue: "character.si")
 
     /// 􂏿
     /// 8 Localizations, 2 Layersets
@@ -2549,61 +2479,29 @@ public extension SFSymbol {
     /// - Multicolor
     static let characterSquareFill = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "character.square.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterTa = SFSymbol(rawValue: "character.ta")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let characterTe = SFSymbol(rawValue: "character.te")
-
     /// 􂐦
-    /// Single Localization, Single Layerset
+    /// 3 Localizations, Single Layerset
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Greek
+    /// - Russian
     ///
     /// Layersets:
     /// - Monochrome
-    static let charactersLowercase = SFSymbol(rawValue: "characters.lowercase")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let charactersLowercaseEl = SFSymbol(rawValue: "characters.lowercase.el")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let charactersLowercaseRu = SFSymbol(rawValue: "characters.lowercase.ru")
+    static let charactersLowercase = SymbolWith2Localizations<El, Ru>(rawValue: "characters.lowercase")
 
     /// 􀥊
-    /// Single Localization, Single Layerset
+    /// 3 Localizations, Single Layerset
+    ///
+    /// Localizations:
+    /// - Latin
+    /// - Greek
+    /// - Russian
     ///
     /// Layersets:
     /// - Monochrome
-    static let charactersUppercase = SFSymbol(rawValue: "characters.uppercase")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let charactersUppercaseEl = SFSymbol(rawValue: "characters.uppercase.el")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let charactersUppercaseRu = SFSymbol(rawValue: "characters.uppercase.ru")
+    static let charactersUppercase = SymbolWith2Localizations<El, Ru>(rawValue: "characters.uppercase")
 
     /// 􀥜
     /// Single Localization, 3 Layersets
@@ -10984,449 +10882,87 @@ public extension SFSymbol {
     /// - Monochrome
     static let textRectanglePageFill = SFSymbol(rawValue: "text.rectangle.page.fill")
 
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatAltEl = SFSymbol(rawValue: "textformat.alt.el")
-
     /// 􀅯
-    /// 8 Localizations, Single Layerset
+    /// 10 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
     /// - Arabic
     /// - Chinese
+    /// - Greek
     /// - Hebrew
     /// - Hindi
     /// - Japanese
     /// - Korean
+    /// - Russian
     /// - Thai
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatCharacters = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "textformat.characters")
+    static let textformatCharacters = SymbolWith9Localizations<Ar, El, He, Hi, Ja, Ko, Ru, Th, Zh>(rawValue: "textformat.characters")
 
     /// 􂐭
-    /// 7 Localizations, 2 Layersets
+    /// 9 Localizations, 2 Layersets
     ///
     /// Localizations:
     /// - Latin
     /// - Chinese
+    /// - Greek
     /// - Hebrew
     /// - Hindi
     /// - Japanese
     /// - Korean
+    /// - Russian
     /// - Thai
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
-    static let textformatCharactersArrowLeftAndRight = SymbolWith6Localizations<He, Hi, Ja, Ko, Th, Zh>(rawValue: "textformat.characters.arrow.left.and.right")
-
-    /// No preview available
-    /// Single Localization, 2 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let textformatCharactersArrowLeftAndRightEl = SFSymbol(rawValue: "textformat.characters.arrow.left.and.right.el")
-
-    /// No preview available
-    /// Single Localization, 2 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    static let textformatCharactersArrowLeftAndRightRu = SFSymbol(rawValue: "textformat.characters.arrow.left.and.right.ru")
+    static let textformatCharactersArrowLeftAndRight = SymbolWith8Localizations<El, He, Hi, Ja, Ko, Ru, Th, Zh>(rawValue: "textformat.characters.arrow.left.and.right")
 
     /// 􀅰
-    /// 8 Localizations, 3 Layersets
+    /// 10 Localizations, 3 Layersets
     ///
     /// Localizations:
     /// - Latin
     /// - Arabic
     /// - Chinese
+    /// - Greek
     /// - Hebrew
     /// - Hindi
     /// - Japanese
     /// - Korean
+    /// - Russian
     /// - Thai
     ///
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
-    static let textformatCharactersDottedunderline = SymbolWith7Localizations<Ar, He, Hi, Ja, Ko, Th, Zh>(rawValue: "textformat.characters.dottedunderline")
-
-    /// No preview available
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let textformatCharactersDottedunderlineEl = SFSymbol(rawValue: "textformat.characters.dottedunderline.el")
-
-    /// No preview available
-    /// Single Localization, 3 Layersets
-    ///
-    /// Layersets:
-    /// - Monochrome
-    /// - Hierarchical
-    /// - Multicolor
-    static let textformatCharactersDottedunderlineRu = SFSymbol(rawValue: "textformat.characters.dottedunderline.ru")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatCharactersEl = SFSymbol(rawValue: "textformat.characters.el")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatCharactersRu = SFSymbol(rawValue: "textformat.characters.ru")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatEl = SFSymbol(rawValue: "textformat.el")
+    static let textformatCharactersDottedunderline = SymbolWith9Localizations<Ar, El, He, Hi, Ja, Ko, Ru, Th, Zh>(rawValue: "textformat.characters.dottedunderline")
 
     /// 􁖻
-    /// 5 Localizations, Single Layerset
+    /// 14 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
     /// - Arabic
+    /// - Bengali
     /// - Burmese
     /// - Central Khmer
+    /// - Gujarati
     /// - Hindi
+    /// - Kannada
+    /// - Malayalam
+    /// - Manipuri
+    /// - Oriya
+    /// - Punjabi
+    /// - Santali
+    /// - Telugu
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatNumbers = SymbolWith4Localizations<Ar, Hi, Km, My>(rawValue: "textformat.numbers")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersBn = SFSymbol(rawValue: "textformat.numbers.bn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersGu = SFSymbol(rawValue: "textformat.numbers.gu")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersKn = SFSymbol(rawValue: "textformat.numbers.kn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersMl = SFSymbol(rawValue: "textformat.numbers.ml")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersMni = SFSymbol(rawValue: "textformat.numbers.mni")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersOr = SFSymbol(rawValue: "textformat.numbers.or")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersPa = SFSymbol(rawValue: "textformat.numbers.pa")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersSat = SFSymbol(rawValue: "textformat.numbers.sat")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatNumbersTe = SFSymbol(rawValue: "textformat.numbers.te")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeBn = SFSymbol(rawValue: "textformat.size.bn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeGu = SFSymbol(rawValue: "textformat.size.gu")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeKn = SFSymbol(rawValue: "textformat.size.kn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerBn = SFSymbol(rawValue: "textformat.size.larger.bn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerGu = SFSymbol(rawValue: "textformat.size.larger.gu")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerKn = SFSymbol(rawValue: "textformat.size.larger.kn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerMl = SFSymbol(rawValue: "textformat.size.larger.ml")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerMni = SFSymbol(rawValue: "textformat.size.larger.mni")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerMr = SFSymbol(rawValue: "textformat.size.larger.mr")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerOr = SFSymbol(rawValue: "textformat.size.larger.or")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerPa = SFSymbol(rawValue: "textformat.size.larger.pa")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerSat = SFSymbol(rawValue: "textformat.size.larger.sat")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerSi = SFSymbol(rawValue: "textformat.size.larger.si")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerTa = SFSymbol(rawValue: "textformat.size.larger.ta")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeLargerTe = SFSymbol(rawValue: "textformat.size.larger.te")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeMl = SFSymbol(rawValue: "textformat.size.ml")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeMni = SFSymbol(rawValue: "textformat.size.mni")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeMr = SFSymbol(rawValue: "textformat.size.mr")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeOr = SFSymbol(rawValue: "textformat.size.or")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizePa = SFSymbol(rawValue: "textformat.size.pa")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSat = SFSymbol(rawValue: "textformat.size.sat")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSi = SFSymbol(rawValue: "textformat.size.si")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerBn = SFSymbol(rawValue: "textformat.size.smaller.bn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerGu = SFSymbol(rawValue: "textformat.size.smaller.gu")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerKn = SFSymbol(rawValue: "textformat.size.smaller.kn")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerMl = SFSymbol(rawValue: "textformat.size.smaller.ml")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerMni = SFSymbol(rawValue: "textformat.size.smaller.mni")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerMr = SFSymbol(rawValue: "textformat.size.smaller.mr")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerOr = SFSymbol(rawValue: "textformat.size.smaller.or")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerPa = SFSymbol(rawValue: "textformat.size.smaller.pa")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerSat = SFSymbol(rawValue: "textformat.size.smaller.sat")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerSi = SFSymbol(rawValue: "textformat.size.smaller.si")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerTa = SFSymbol(rawValue: "textformat.size.smaller.ta")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeSmallerTe = SFSymbol(rawValue: "textformat.size.smaller.te")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeTa = SFSymbol(rawValue: "textformat.size.ta")
-
-    /// No preview available
-    /// Single Localization, Single Layerset
-    ///
-    /// Layersets:
-    /// - Monochrome
-    static let textformatSizeTe = SFSymbol(rawValue: "textformat.size.te")
+    static let textformatNumbers = SymbolWith13Localizations<Ar, Bn, Gu, Hi, Km, Kn, Ml, Mni, My, Or, Pa, Sat, Te>(rawValue: "textformat.numbers")
 
     /// 􂘔
     /// Single Localization, 2 Layersets

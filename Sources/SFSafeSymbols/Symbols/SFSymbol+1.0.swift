@@ -14503,12 +14503,13 @@ public extension SFSymbol {
     static let textbox = SymbolWith7Localizations<Ar_v2, He_v2, Hi_v2, Ja_v2, Ko_v2, Th_v2, Zh_v2>(rawValue: "textbox")
 
     /// 􀅒
-    /// 8 Localizations, Single Layerset
+    /// 9 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
     /// - Arabic (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     /// - Chinese (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Greek (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     /// - Hebrew (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     /// - Hindi (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     /// - Japanese (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
@@ -14517,7 +14518,7 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformat = SymbolWith7Localizations<Ar_v6, He_v6, Hi_v6, Ja_v6, Ko_v6, Th_v6, Zh_v6>(rawValue: "textformat")
+    static let textformat = SymbolWith8Localizations<Ar_v6, El_v6, He_v6, Hi_v6, Ja_v6, Ko_v6, Th_v6, Zh_v6>(rawValue: "textformat")
 
     /// 􀅱
     /// 3 Localizations, Single Layerset
@@ -14563,12 +14564,13 @@ public extension SFSymbol {
     static let textformatAbcDottedunderline = SFSymbol(rawValue: "textformat.abc.dottedunderline")
 
     /// 􀅑
-    /// 8 Localizations, Single Layerset
+    /// 9 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
     /// - Arabic (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     /// - Chinese (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Greek (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     /// - Hebrew (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     /// - Hindi (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     /// - Japanese (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
@@ -14577,10 +14579,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatAlt = SymbolWith7Localizations<Ar_v6, He_v6, Hi_v6, Ja_v6, Ko_v6, Th_v6, Zh_v6>(rawValue: "textformat.alt")
+    static let textformatAlt = SymbolWith8Localizations<Ar_v6, El_v6, He_v6, Hi_v6, Ja_v6, Ko_v6, Th_v6, Zh_v6>(rawValue: "textformat.alt")
 
     /// 􀅐
-    /// 8 Localizations, Single Layerset
+    /// 19 Localizations, Single Layerset
     ///
     /// Localizations:
     /// - Latin
@@ -14591,10 +14593,21 @@ public extension SFSymbol {
     /// - Japanese (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     /// - Korean (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
     /// - Thai (iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1)
+    /// - Bengali (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Gujarati (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Kannada (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Malayalam (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Manipuri (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Maranthi (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Oriya (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Punjabi (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Santali (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Tamil (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    /// - Telugu (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
     ///
     /// Layersets:
     /// - Monochrome
-    static let textformatSize = SymbolWith7Localizations<Ar_v2_1, He_v2_1, Hi_v2_1, Ja_v2_1, Ko_v2_1, Th_v2_1, Zh_v2_1>(rawValue: "textformat.size")
+    static let textformatSize = SymbolWith18Localizations<Ar_v2_1, Bn_v6, Gu_v6, He_v2_1, Hi_v2_1, Ja_v2_1, Kn_v6, Ko_v2_1, Ml_v6, Mni_v6, Mr_v6, Or_v6, Pa_v6, Sat_v6, Ta_v6, Te_v6, Th_v2_1, Zh_v2_1>(rawValue: "textformat.size")
 
     /// 􀓡
     /// 8 Localizations, 2 Layersets

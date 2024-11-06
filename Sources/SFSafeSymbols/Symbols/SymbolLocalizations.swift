@@ -2,13 +2,27 @@
 
 public enum Localization: String, Equatable {
     case ar = "ar"
+    case bn = "bn"
+    case el = "el"
+    case gu = "gu"
     case he = "he"
     case hi = "hi"
     case ja = "ja"
     case km = "km"
+    case kn = "kn"
     case ko = "ko"
+    case ml = "ml"
+    case mni = "mni"
+    case mr = "mr"
     case my = "my"
+    case or = "or"
+    case pa = "pa"
+    case ru = "ru"
     case rtl = "rtl"
+    case sat = "sat"
+    case si = "si"
+    case ta = "ta"
+    case te = "te"
     case th = "th"
     case zh = "zh"
 }
@@ -77,6 +91,54 @@ public struct Ar_v6: SymbolLocalization {
     public init(source: SFSymbol) { self.source = source }
     @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
     public var ar: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ar.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Bn: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var bn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.bn.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Bn_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var bn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.bn.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct El: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var el: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.el.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct El_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var el: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.el.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Gu: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var gu: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.gu.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Gu_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var gu: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.gu.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
@@ -224,6 +286,22 @@ public struct Km_v5: SymbolLocalization {
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Kn: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var kn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.kn.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Kn_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var kn: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.kn.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct Ko: SymbolLocalization {
     let source: SFSymbol
     public init(source: SFSymbol) { self.source = source }
@@ -264,6 +342,54 @@ public struct Ko_v6: SymbolLocalization {
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Ml: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var ml: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ml.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Ml_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var ml: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ml.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Mni: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var mni: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mni.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Mni_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var mni: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mni.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Mr: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var mr: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mr.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Mr_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var mr: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.mr.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
 public struct My: SymbolLocalization {
     let source: SFSymbol
     public init(source: SFSymbol) { self.source = source }
@@ -277,6 +403,38 @@ public struct My_v5: SymbolLocalization {
     public init(source: SFSymbol) { self.source = source }
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     public var my: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.my.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Or: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var or: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.or.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Or_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var or: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.or.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Pa: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var pa: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.pa.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Pa_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var pa: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.pa.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
@@ -317,6 +475,78 @@ public struct Rtl_v5: SymbolLocalization {
     public init(source: SFSymbol) { self.source = source }
     @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, visionOS 1.0, *)
     public var rtl: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.rtl.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Ru: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var ru: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ru.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Sat: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var sat: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.sat.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Sat_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var sat: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.sat.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Si: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var si: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.si.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Si_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var si: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.si.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Ta: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var ta: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ta.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Ta_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var ta: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.ta.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Te: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+    public var te: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.te.rawValue)") }
+}
+
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
+public struct Te_v6: SymbolLocalization {
+    let source: SFSymbol
+    public init(source: SFSymbol) { self.source = source }
+    @available(iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0, visionOS 2.0, *)
+    public var te: SFSymbol { .init(rawValue: "\(source.rawValue).\(Localization.te.rawValue)") }
 }
 
 @available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, visionOS 1.0, *)
