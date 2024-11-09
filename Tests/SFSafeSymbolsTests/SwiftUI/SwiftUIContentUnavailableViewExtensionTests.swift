@@ -1,11 +1,7 @@
-@testable import SFSafeSymbols
-
-#if !os(watchOS)
-
-import XCTest
-
 #if canImport(SwiftUI)
 
+@testable import SFSafeSymbols
+import XCTest
 import SwiftUI
 
 class ContentUnavailableViewExtensionTests: XCTestCase {
@@ -15,8 +11,9 @@ class ContentUnavailableViewExtensionTests: XCTestCase {
             for symbol in TestHelper.allSymbolsWithVariants {
                 print("Testing validity of \"\(symbol.rawValue)\" via ContentUnavailableView init")
 
-                // If this doesn't crash, everything works fine
-                _ = ContentUnavailableView("Title", systemSymbol: symbol, description: .init(verbatim: "Description"))
+                // If these doesn't crash, everything works fine
+                _ = ContentUnavailableView("Title" as LocalizedStringKey, systemSymbol: symbol)
+                _ = ContentUnavailableView("Title" as String, systemSymbol: symbol)
             }
         } else {
             print("To test the ContentUnavailableView initializer, iOS 17, macOS 14.0 or tvOS 17 is required.")
@@ -33,6 +30,3 @@ class JustFail: XCTestCase {
 }
 
 #endif
-
-#endif
-

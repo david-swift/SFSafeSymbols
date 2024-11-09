@@ -1,11 +1,7 @@
+#if canImport(SwiftUI) && os(macOS) && !targetEnvironment(macCatalyst)
+
 @testable import SFSafeSymbols
-
-#if !os(watchOS)
-
 import XCTest
-
-#if canImport(SwiftUI)
-
 import SwiftUI
 
 class MenuBarExtraExtensionTests: XCTestCase {
@@ -15,8 +11,17 @@ class MenuBarExtraExtensionTests: XCTestCase {
             for symbol in TestHelper.allSymbolsWithVariants {
                 print("Testing validity of \"\(symbol.rawValue)\" via MenuBarExtra init")
 
-                // If this doesn't crash, everything works fine
-                _ = MenuBarExtra("Title", systemSymbol: symbol, isInserted: .constant(true)) {
+                // If these doesn't crash, everything works fine
+                _ = MenuBarExtra("Title" as LocalizedStringKey, systemSymbol: symbol, isInserted: .constant(true)) {
+                    Text("Content")
+                }
+                _ = MenuBarExtra("Title" as String, systemSymbol: symbol, isInserted: .constant(true)) {
+                    Text("Content")
+                }
+                _ = MenuBarExtra("Title" as LocalizedStringKey, systemSymbol: symbol) {
+                    Text("Content")
+                }
+                _ = MenuBarExtra("Title" as String, systemSymbol: symbol) {
                     Text("Content")
                 }
             }
@@ -26,16 +31,4 @@ class MenuBarExtraExtensionTests: XCTestCase {
     }
 }
 
-#else
-
-class JustFail: XCTestCase {
-    func justFail() {
-        XCTFail("SwiftUI should be available when testing.")
-    }
-}
-
 #endif
-
-#endif
-
-

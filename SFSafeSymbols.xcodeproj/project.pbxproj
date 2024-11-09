@@ -37,6 +37,10 @@
 		B01C18742B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C186C2B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift */; };
 		B01CF32629258987000FBB12 /* SFSymbol+4.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01CF32429258987000FBB12 /* SFSymbol+4.1.swift */; };
 		B01CF32729258987000FBB12 /* SFSymbol+AllSymbols+4.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01CF32529258987000FBB12 /* SFSymbol+AllSymbols+4.1.swift */; };
+		B092AAA52CDFCA3E007828D9 /* SwiftUIMenuBarExtraExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B092AAA42CDFCA3E007828D9 /* SwiftUIMenuBarExtraExtension.swift */; };
+		B092AAA62CDFCA3E007828D9 /* SwiftUIContentUnavailableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B092AAA32CDFCA3E007828D9 /* SwiftUIContentUnavailableViewExtension.swift */; };
+		B092AAA92CDFEAF7007828D9 /* SwiftUIContentUnavailableViewExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B092AAA72CDFEAF7007828D9 /* SwiftUIContentUnavailableViewExtensionTests.swift */; };
+		B092AAAA2CDFEAF7007828D9 /* SwiftUIMenuBarExtraExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B092AAA82CDFEAF7007828D9 /* SwiftUIMenuBarExtraExtensionTests.swift */; };
 		B0AEA82B2801A8E000A02015 /* SFSymbol+1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AEA8282801A8E000A02015 /* SFSymbol+1.1.swift */; };
 		B0AEA82C2801A8E000A02015 /* SFSymbol+3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AEA8292801A8E000A02015 /* SFSymbol+3.3.swift */; };
 		B0AEA82D2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AEA82A2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift */; };
@@ -106,6 +110,10 @@
 		B01C186C2B55D9B300AC4288 /* SFSymbol+AllSymbols+5.0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+5.0.swift"; sourceTree = "<group>"; };
 		B01CF32429258987000FBB12 /* SFSymbol+4.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+4.1.swift"; sourceTree = "<group>"; };
 		B01CF32529258987000FBB12 /* SFSymbol+AllSymbols+4.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+4.1.swift"; sourceTree = "<group>"; };
+		B092AAA32CDFCA3E007828D9 /* SwiftUIContentUnavailableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContentUnavailableViewExtension.swift; sourceTree = "<group>"; };
+		B092AAA42CDFCA3E007828D9 /* SwiftUIMenuBarExtraExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMenuBarExtraExtension.swift; sourceTree = "<group>"; };
+		B092AAA72CDFEAF7007828D9 /* SwiftUIContentUnavailableViewExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContentUnavailableViewExtensionTests.swift; sourceTree = "<group>"; };
+		B092AAA82CDFEAF7007828D9 /* SwiftUIMenuBarExtraExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMenuBarExtraExtensionTests.swift; sourceTree = "<group>"; };
 		B0AEA8282801A8E000A02015 /* SFSymbol+1.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+1.1.swift"; sourceTree = "<group>"; };
 		B0AEA8292801A8E000A02015 /* SFSymbol+3.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+3.3.swift"; sourceTree = "<group>"; };
 		B0AEA82A2801A8E000A02015 /* SFSymbol+AllSymbols+3.3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSymbol+AllSymbols+3.3.swift"; sourceTree = "<group>"; };
@@ -268,6 +276,8 @@
 		CCCCCFFE252F620400C7CE9F /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B092AAA32CDFCA3E007828D9 /* SwiftUIContentUnavailableViewExtension.swift */,
+				B092AAA42CDFCA3E007828D9 /* SwiftUIMenuBarExtraExtension.swift */,
 				CCCCCFE8252F61E700C7CE9F /* SwiftUIImageExtension.swift */,
 				CCCCCFEA252F61E700C7CE9F /* SwiftUILabelExtension.swift */,
 				949BD15E2B74156800A10AB7 /* SwiftUIButtonExtension.swift */,
@@ -309,6 +319,8 @@
 		CCCCD034252F62D400C7CE9F /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B092AAA72CDFEAF7007828D9 /* SwiftUIContentUnavailableViewExtensionTests.swift */,
+				B092AAA82CDFEAF7007828D9 /* SwiftUIMenuBarExtraExtensionTests.swift */,
 				CCCCD011252F622B00C7CE9F /* SwiftUIImageExtensionTests.swift */,
 				CCCCD014252F622B00C7CE9F /* SwiftUILabelExtensionTests.swift */,
 				949BD15C2B74155100A10AB7 /* SwiftUIButtonExtensionTests.swift */,
@@ -457,6 +469,8 @@
 				B0B852002C1DC9B000E87F17 /* SFSymbol+AllSymbols+5.3.swift in Sources */,
 				636A46BB28002819007E6028 /* SFSymbol+AllSymbols+1.0.swift in Sources */,
 				636A46CA28002819007E6028 /* SFSymbol+AllSymbols+2.0.swift in Sources */,
+				B092AAA52CDFCA3E007828D9 /* SwiftUIMenuBarExtraExtension.swift in Sources */,
+				B092AAA62CDFCA3E007828D9 /* SwiftUIContentUnavailableViewExtension.swift in Sources */,
 				B0AEA82C2801A8E000A02015 /* SFSymbol+3.3.swift in Sources */,
 				636A46BC28002819007E6028 /* SFSymbol+2.1.swift in Sources */,
 				949BD15F2B74156800A10AB7 /* SwiftUIButtonExtension.swift in Sources */,
@@ -490,6 +504,8 @@
 				CC1D812F27F758D200CACDC7 /* TestHelper.swift in Sources */,
 				949BD15D2B74155100A10AB7 /* SwiftUIButtonExtensionTests.swift in Sources */,
 				CCCCD064252F804400C7CE9F /* NSImageExtensionTests.swift in Sources */,
+				B092AAA92CDFEAF7007828D9 /* SwiftUIContentUnavailableViewExtensionTests.swift in Sources */,
+				B092AAAA2CDFEAF7007828D9 /* SwiftUIMenuBarExtraExtensionTests.swift in Sources */,
 				CCCCD017252F622B00C7CE9F /* UIApplicationShortcutIconExtensionTests.swift in Sources */,
 				CCCCD01A252F622B00C7CE9F /* UIImageExtensionTests.swift in Sources */,
 				B00FBD8E285E146400A7878B /* LocalizationTests.swift in Sources */,
